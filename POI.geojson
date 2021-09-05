@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "office",
+        "name": "Hire A Dog Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5035286,
+          -45.8742235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "triangle",
+        "name": "Jubilee Park",
+        "type": "Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        170.48804658277066,
+          -45.87859004483317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Wakari Dog park",
+        "type": "Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        170.47323952196734,
+      -45.85596575078956
+        ]
+      }
+    },
+    {
+          "type": "Feature",
+          "properties": {
+            "marker-color": "#7e7e7e",
+            "marker-size": "medium",
+            "marker-symbol": "",
+            "type": "Park",
+            "name": "Robin Hood Park"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+            170.490861156268,
+            -45.87206059875214
+            ]
+          }
+        },
+
+            {
+                  "type": "Feature",
+                  "properties": {
+                    "marker-color": "#7e7e7e",
+                    "marker-size": "medium",
+                    "marker-symbol": "",
+                    "type": "Walking Track",
+                    "name": "Town Belt Track"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                    170.4937597180209,
+                    -45.88656078254188
+                    ]
+                  }
+                  },
+
+                               {
+                                     "type": "Feature",
+                                     "properties": {
+                                       "marker-color": "#7e7e7e",
+                                       "marker-size": "medium",
+                                       "marker-symbol": "",
+                                       "type": "Walking Track",
+                                       "name": "Frasers Gully Bush Walk"
+                                     },
+                                     "geometry": {
+                                       "type": "Point",
+                                       "coordinates": [
+                                       170.46923360295725,
+                                       -45.86128066281388
+                                       ]
+                                     }
+                                     },
+
+                                                                     {
+                                                                           "type": "Feature",
+                                                                           "properties": {
+                                                                             "marker-color": "#7e7e7e",
+                                                                             "marker-size": "medium",
+                                                                             "marker-symbol": "",
+                                                                             "type": "Walking Track",
+                                                                             "name": "Ross Creek Reservoir Forest Walk"
+                                                                           },
+                                                                           "geometry": {
+                                                                             "type": "Point",
+                                                                             "coordinates": [
+                                                                             170.4958473796337,
+                                                                           -45.84213058991888
+                                                                             ]
+                                                                           }
+                                                                           }
+
+  ]
+}
+
+
+
+

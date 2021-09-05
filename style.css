@@ -1,0 +1,268 @@
+
+html {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    color: darkslategrey;
+    background-image: linear-gradient(white, rgb(0, 153, 255));
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    position: fixed;
+    width: 50%;
+    background-image: linear-gradient(70deg, white, rgb(198, 198, 198));
+    position: fixed;
+    top: 0;
+    width: inherit;
+    z-index: 100;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    background-image: linear-gradient(70deg, white, rgb(232, 232, 232));
+    font-size: 13px;
+    border-radius: 8px;
+
+}
+
+h1,
+h2, h3 {
+    font-family: dymaxionscriptregular, sans-serif;
+    margin: 0;
+}
+
+h1 {
+
+    font-size: 40px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+nav {
+    font-size: 14px;
+    text-align: right;
+
+}
+
+a:link, a:visited {
+    color: black;
+padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #c3dafc;
+}
+
+#yourcart {
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+#cartimg{
+    width: 40%;
+    height: 40%;
+    margin-top: 5px;
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.leaflet-popup-content {
+
+    text-align: center;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+
+#doglist {
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 29%;
+    text-align: center;
+
+
+}
+
+#reviews {
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 27%;
+}
+
+
+#head {
+    margin-top: 150px;
+padding: 30px;
+    text-align: center;
+}
+
+#map {
+
+
+    width: 67%;
+    height: 40%;
+    margin-left: 15%;
+}
+
+#showmarker {
+    margin-top: 10px;
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
+
+#hidemarker {
+    margin-top: 10px;
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
+
+#office {
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+#bookings {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+
+
+#bookHead, #homehead, #dogshead, #carthead, #reviewshead{
+    padding: 30px;
+    margin-top: 140px;
+    text-align: center;
+
+
+}
+
+#enterdate {
+
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+
+#homeimg {
+    width: 100%;
+}
+
+
+
+#searchimg {
+
+    width: 50%;
+    height: 50%;
+    margin-left: -35%;
+
+}
+
+#bookingdetails {
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 2px solid;
+    background-image: linear-gradient(70deg, white, rgb(232, 232, 232));
+
+    color: inherit;
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+#day, #month, #year {
+
+    height: 30px;
+    width: 10%;
+    border-radius: 10px;
+
+}
+
+#time, #length, #name {
+    margin-left: 35%;
+    font-size: 17px;
+
+}
+
+#bookingtime, #bookingname, #total {
+    border-radius: 6px;
+}
+
+
+#yourcart {
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+
+#homedetail{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+

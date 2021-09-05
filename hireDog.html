@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="hireDog.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<br>
+<header>
+    <h1>Hire A Dog</h1>
+
+
+    <nav>
+
+        <ul>
+
+            <li> <a href="index.html">Home</a>
+            <li> <a href="admin.html">Admin</a>
+            <li> <a href="dogs.html">Browse Dogs</a>
+            <li> <a href="hireDog.html">Hire Dogs</a>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="cart.html">Cart</a></li>
+
+        </ul>
+
+
+    </nav>
+</header>
+
+<h2 id = 'dogshead'> Hire Dogs</h2>
+<br>
+<form id = "enterdate">
+    <p>Enter date to hire:</p>
+    <br>
+    <label for="day">Day:</label>
+    <input type="number" id="day" name="day" min="1" max="30" required />
+    <label for = "month">Month:</label>
+    <input type="number" id="month" name="month" min="1" max="12"  required />
+    <label for = "year">Year:</label>
+    <input type="number" id="year" name="year" min="2021"  required />
+
+    <input type="submit">
+
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id ='bookingdetails'>
+<div id = "name"></div>
+<br>
+<div id = "time"></div>
+<br>
+<div id = "length"></div>
+<br>
+
+</div>
+<div id = "doglist"></div>
+
+
+
+
+
+<footer>
+    <p>
+        Hire a dog is not a real store. No dogs are available, and no money will be accepted.
+    </p><p>
+    Thanks for visiting!
+</p>
+</footer>
+
+</body>
+
+
+
+
+</html>
